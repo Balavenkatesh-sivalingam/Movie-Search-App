@@ -1,0 +1,32 @@
+{
+  "name": "movie_search_app",
+  "version": "1.0.0",
+  "description": "A Movie Search app using React, Reactrouter and API integration.",
+  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "keywords": [
+    "React",
+    "React",
+    "Router",
+    "API",
+    "Movie",
+    "Search"
+  ],
+  "author": "Balavenkatesh S",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.11",
+    "babel": "^5.8.38",
+    "parcel": "^2.15.4",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-redux": "^9.2.0",
+    "react-router": "^6.22.3",
+    "react-router-dom": "^6.22.3",
+    "tailwindcss": "^4.1.11"
+  }
+}
