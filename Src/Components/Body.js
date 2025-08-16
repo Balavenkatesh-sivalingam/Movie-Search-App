@@ -8,7 +8,7 @@ const Body = () => {
   const [totalResults, setTotalResults] = useState(0);
   const [loading, setLoading] = useState(false);
 
-  // ✅ URL search params
+  
   const [searchParams, setSearchParams] = useSearchParams();
   const searchText = searchParams.get("q") || "";
   const page = parseInt(searchParams.get("page") || "1", 10);
@@ -66,7 +66,7 @@ const Body = () => {
         className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-6"
       >
         <img
-          className="sm:w-24 md:w-28 lg:w-[80px] rounded-xl"
+          className="sm:hidden md:w-28 lg:w-[80px] rounded-xl"
           src={Logo_Url1}
           alt="Logo"
         />
