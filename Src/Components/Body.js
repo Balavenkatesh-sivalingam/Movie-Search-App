@@ -66,7 +66,7 @@ const Body = () => {
         className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-6"
       >
         <img
-          className="sm:hidden md:w-28 lg:w-[80px] rounded-xl"
+          className="w-24 rounded-xl"
           src={Logo_Url1}
           alt="Logo"
         />
