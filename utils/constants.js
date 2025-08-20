@@ -1,5 +1,5 @@
 export  const Logo_Url =
-  "https://icon-library.com/images/movie-app-icon/movie-app-icon-9.jpg";
+  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw8cHKLdKZCOjHlccoGwbQ6uAbRLIYDHWrHg&s";
 
 export const Logo_Url1 = "https://archive.org/download/moviebox-pro-featured-image/moviebox-pro-featured-image.png"
 
